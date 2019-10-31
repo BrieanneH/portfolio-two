@@ -1,29 +1,50 @@
-body{
-    background: url("images\circles-light.png") no-repeat center center fixed;
-    background-size: cover;
+.body {
+    height:100%;
+    background-image: url("file:///C:/Users/user/portfolio-two/images/circles-light.png");
+    position: center;
+    padding: 0px;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-
-
-.navbar-brand{
-  
+.navbar {
+    background-color: #fff;
+    border-bottom: 7px solid #cccc;
+    
+}
+.nav-item{
+    position: relative;
+    float: right;
 }
 
 h1{
-   text-align: left;
-   border-bottom: 5px solid #dddd;
-   color: #4aaa;
+   position: relative;
+   float: left;
+   background-color: #4aaa;
+   color:#fff;
+   padding: 10px;
 
 
 }
-.main-content{
-
+h2{
+    color: #7777;
+    background-color: #fff;
+    text-align: left;
+    border-bottom: 4px solid #cccc;
+}
+.content-box{
     border: 4px solid #dddd;
-    margin:10px 60px;
-    padding:30px;
     width: 960px;
     height:100%;
+    padding:15px;
+    margin:0 auto;
+    margin-top: 20px;
+    
+}   
+.about-me{
+
 }
 .my-photo{
+    position: relative;
     float: left;
 }
