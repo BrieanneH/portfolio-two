@@ -1,11 +1,29 @@
-.nav-item{
-    float:right;
-    
+body{
+    background: url("images\circles-light.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+.navbar-brand{
+  
 }
 
 h1{
-   margin-left: 40px;
+   text-align: left;
+   border-bottom: 5px solid #dddd;
+   color: #4aaa;
+
+
 }
 .main-content{
-    background-color: gray;
+
+    border: 4px solid #dddd;
+    margin:10px 60px;
+    padding:30px;
+    width: 960px;
+    height:100%;
+}
+.my-photo{
+    float: left;
 }
