@@ -1,6 +1,6 @@
 .body {
-    height:100%;
-    background-image: url("file:///C:/Users/user/portfolio-two/images/circles-light.png");
+    /* height:100%; */
+    background-image: url("./images/circles-light.png");
     position: center;
     padding: 0px;
     margin: 0 auto;
