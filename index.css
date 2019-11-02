@@ -51,7 +51,8 @@ h2{
     text-align: left;
     border-bottom: 4px solid #cccc;
 }
-.content-box, .portfolio-content {
+.content-box, .works-cited {
+  
     border: 4px solid #cccc;
     background-color: white;
     width: 960px;
@@ -81,18 +82,37 @@ footer{
     
 }
 
-.scratchimg{
+
+.scratch-img{
+    position: relative;
+    top: autopx;
+    left: 70px;
+   
+  
+    border:4px solid #cccc;
+
+
 
 }
 
-.websiteimg{
-
+.website-img{
+    position: relative;
+    float: right;
+    top: auto 0px;
+    left: 100px;
+    border:4px solid #cccc;
+ 
 
 }
 
 
-.debugimg{
-
+.debug-img{
+   position: relative;
+   float: right;
+   top: autopx;
+   left: 70px;
+   margin-top: 20px;
+    border:4px solid #cccc;
 
 }
 
