@@ -10,6 +10,14 @@
     background-position: center;
     
 }
+.container-fluid {
+   
+ width: 100%;
+ padding-right: 15px;
+ padding-left: 15px;
+ margin-right: auto;
+ margin-left: auto;
+}
 
 
 
@@ -62,14 +70,16 @@ footer{
     
 }
 
-.scratch{
+.portfolio-content{
+    box-sizing: border-box;
+    border: 4px solid #cccc;
+    background-color: white;
+    width: 960px;
+    height:100%;
+    padding:15px;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    box-sizing: content-box;
 
-}
 
-.website{
-
-}
-
-.debugging{
-    
-}
