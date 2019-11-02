@@ -99,10 +99,8 @@ footer{
 
 .scratch-img{
     position: relative;
-    top: autopx;
-    left: 70px;
-   
-  
+    float: left;
+    left: 100px;
     border:4px solid #cccc;
 
 
@@ -110,10 +108,9 @@ footer{
 }
 
 .website-img{
-    position: relative;
+    position: fixed;
     float: right;
     top: auto 0px;
-    left: 100px;
     border:4px solid #cccc;
  
 
@@ -122,13 +119,14 @@ footer{
 
 .debug-img{
    position: relative;
-   float: right;
+   float: left;
    top: autopx;
-   left: 70px;
+   left: 100px;
    margin-top: 20px;
     border:4px solid #cccc;
 
 }
+
 
 
 .clearfix::after{
